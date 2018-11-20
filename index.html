@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Le compte à rebours</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+
+</head>
+<body>
+
+<h1>Compte a rebours</h1>
+
+<div class="container">
+
+<span id="Heure"></span>
+<span></span>
+<span id="Minute"></span>
+<span> : </span>
+<span id="Seconde"></span>
+<br><br>
+
+<button id="Start">Start</button>
+<button id="Pause">Pause</button>
+<button id="Reset">Reset</button>
+<br><br>
+
+<input type="text" placeholder="Heure" id="SubmitHeure"><input type="text" placeholder="Minute" id="SubmitMinute" autofocus><input type="text" placeholder="Seconde" id="SubmitSeconde">
+<button id="Submit">Envoyer le Timer</button>
+
+<audio src="../../Documents/GitHub/timer/alarme.mp3" id="AudioPlayer"></audio>
+
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
